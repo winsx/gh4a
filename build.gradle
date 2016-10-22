@@ -36,6 +36,7 @@ android {
     buildTypes {
         debug {
             zipAlignEnabled true
+            applicationIdSuffix ".beta"
         }
         release {
             zipAlignEnabled true
